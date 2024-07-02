@@ -9,6 +9,12 @@ This BiG-SCAPE Installation Guide attempts to provide specific step-by-step inst
 2) [Miniconda Installation](#miniconda-installation)
 3) [BiG-SCAPE Installation](#big-scape-installation)
 
+For __Windows__ based installation follow these steps (in order):
+
+1) [Miniconda Installation](#miniconda-installation)
+2) [BiG-SCAPE Installation](#big-scape-installation)
+
+
 ## Brew Installation
 
 <details>
@@ -88,7 +94,7 @@ zsh: command not found: conda
 conda 24.5.0
 ```
 
-4) Start by copying and pasting the below command - this requires __Brew Installation__:
+4) Start by copying and pasting the below command - this requires __Brew Installation__ (ignore this step if you are using a Windows machine):
 
 ```bash
 brew install wget
