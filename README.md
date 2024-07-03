@@ -53,7 +53,7 @@ Homebrew 4.3.7
 6) After `brew` succesfully installs on your computer you will need to copy and paste the next two commands. In the commands below replace __USERNAME__ with your username.
 
 ```bash
-echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/USERNAME/.zprofile
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/USERNAME/.zprofile
 ```
 ```bash
 eval "$(/opt/homebrew/bin/brew shellenv)"
