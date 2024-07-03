@@ -145,7 +145,7 @@ cd BiG-SCAPE-1.1.5
 6) Afterwards, copy and paste this command - this relies on succesfully completing the __Miniconda Installation__:
 
 ```bash
-$ conda env create -f bigscape_dependencies.yml
+conda env create -f bigscape_dependencies.yml
 ```
 
 7) Next, copy and paste this command you will see a change in your terminal after this completes with a `(bigscape)` popping up:
