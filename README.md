@@ -1,9 +1,25 @@
 # BiG-SCAPE Installation Guide
 
-> [!NOTE]  
-> This guide is intended for __Mac__ and __Windows__ installation for other operating systems repurpose the generic steps and instructions listed below.
+__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
-This BiG-SCAPE Installation Guide attempts to provide specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. The instructions will attempt to be as granular as possible, but whenever you get stuck reference the linked information provided in each section. For __Mac__ based installation follow these steps (in order):
+
+> [!WARNING]
+> Use the copy button feature on GitHub __only__, do not type commands into your terminal window unless instructed to by the protocol.
+
+> [!WARNING]
+> When editing text in the terminal window you cannot highlight a particular area and delete with your keyboard, instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
+
+This BiG-SCAPE Installation Guide attempts to provide specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
+
+When referring to the `terminal` application on your Mac you can open the launchpad and look for this icon:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="150" height="150"/>
+
+When referring to the `command prompt` application on your Windows computer you can look for this icon:
+
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Command_prompt_icon_%28windows%29.png" width="150" height="150"/>
+
+For __Mac__ based installation follow these steps (in order):
 
 1) [Brew Installation](#brew-installation)
 2) [Miniconda Installation](#miniconda-installation)
@@ -14,6 +30,7 @@ For __Windows__ based installation follow these steps (in order):
 1) [Miniconda Installation](#miniconda-installation)
 2) [BiG-SCAPE Installation](#big-scape-installation)
 
+If commands are expected to take a long time to complete they will be indicated with the  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Heures_b%C3%A9n%C3%A9voles.png" height="40" /> icon
 
 ## Brew Installation
 
@@ -50,10 +67,10 @@ Homebrew 4.3.7
 
 5) If prompted for your __password__ type your computer login password - the information you type will not appear on the terminal so just finish typing your password and cllck `return`.
 
-6) After `brew` succesfully installs on your computer you will need to copy and paste the next two commands. In the commands below replace __USERNAME__ with your username.
+6) After `brew` succesfully installs on your computer you will need to copy and paste the next two commands in succession:
 
 ```bash
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/USERNAME/.zprofile
+(echo; echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"") >> /Users/$USER/.zprofile
 ```
 ```bash
 eval "$(/opt/homebrew/bin/brew shellenv)"
