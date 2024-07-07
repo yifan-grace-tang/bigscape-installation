@@ -150,7 +150,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 7) __***Insert screenshots of what to do when you see what__.
-be patient here__time icon
+
 8) Close your `terminal` window and open a __new__ `terminal` window.
 
 9) Check if conda is successfully installed on your computer. Paste in your `terminal`:
@@ -174,17 +174,11 @@ conda 24.5.0
 ```bash
 cd Desktop && mkdir bigscape && cd bigscape
 ```
-
-__Brew install wget__
-be patient__time icon
-
 3) Paste into your terminal:
 
 ```bash
 wget https://github.com/medema-group/BiG-SCAPE/archive/refs/tags/v1.1.5.zip
 ```
-be patient__time icon
-
 4) Paste into your terminal:
 
 ```bash
@@ -199,7 +193,6 @@ cd BiG-SCAPE-1.1.5
 ```bash
 conda env create -f bigscape_dependencies.yml
 ```
-be patient_time icon
 
 7) Finally, copy and paste the command below. You will see a change in your terminal after this completes with a `(bigscape)` in the beginning of your line __Insert Image__:
 
@@ -211,15 +204,11 @@ conda activate bigscape
 ```bash
 python bigscape.py --version
 ```
-be patient_time icon
-
 9) Paste into your terminal:
 
 ```bash
 wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz && gunzip Pfam-A.hmm.gz
 ```
-
-Takes from 10-50 minutes
 10) Paste into your terminal:
 ```bash
 hmmpress Pfam-A.hmm
