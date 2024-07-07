@@ -1,43 +1,45 @@
 # BiG-SCAPE Installation Guide
 
-__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
+__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
+
+This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
+__Before Getting Started...__
+If commands are expected to take a long time to complete they will be indicated with the <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Heures_b%C3%A9n%C3%A9voles.png" height="20" />  icon
 
 > [!WARNING]
 > Use the copy button feature on GitHub __only__, do not type commands into your terminal window unless instructed to by the protocol.
 
 ![GitHub Copy Icon](./img/copy-code.png)
-_Look for this icon_
+_This is the copy icon in GitHub. Click the icon and the command will be copied onto your clipboard._
 
 > [!WARNING]
-> When editing text in the terminal window you cannot highlight a particular area and delete with your keyboard, instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
+> When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
 
-This BiG-SCAPE Installation Guide attempts to provide specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
-
+__Mac: Terminal__
 When referring to the `terminal` application on your Mac you can open the launchpad and look for this icon:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="150" height="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="100" height="100"/>
 
+__Windows: Command Prompt__
 When referring to the `command prompt` application on your Windows computer you can look for this icon:
 
-<img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Command_prompt_icon_%28windows%29.png" width="150" height="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Command_prompt_icon_%28windows%29.png" width="100" height="100"/>
 
 For __Mac__ based installation follow these steps (in order):
 
-1) [Brew Installation](#brew-installation)
-2) [Miniconda Installation](#miniconda-installation)
-3) [BiG-SCAPE Installation](#big-scape-installation)
+1) [Brew Installation (Mac)](#brew-installation)
+2) [Miniconda Installation (Mac)](#miniconda-installation)
+3) [BiG-SCAPE Installation (Mac)](#big-scape-installation)
 
 For __Windows__ based installation follow these steps (in order):
 
-1) [Miniconda Installation](#miniconda-installation)
-2) [BiG-SCAPE Installation](#big-scape-installation)
+1) [Miniconda Installation (Windows)](#miniconda-installation)
+2) [BiG-SCAPE Installation (Windows)](#big-scape-installation)
 
-If commands are expected to take a long time to complete they will be indicated with the  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Heures_b%C3%A9n%C3%A9voles.png" height="40" /> icon
-
-## Brew Installation
+## Brew Installation (Mac)
 
 <details>
 <summary> </summary>
@@ -46,22 +48,22 @@ If commands are expected to take a long time to complete they will be indicated 
 
 </details>
 
-1) Start by checking if `brew` is already installed on your machine, open your `terminal` applicaction and paste:
+1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> applicaction and paste into your terminal:
 
 ```bash
 brew -v
 ```
 
-2) If you see the below message - proceed to step 4:
-
-```bash
-zsh: command not found: brew
-```
-
-3) If the `brew` command is found you will see something along the lines of this message (the specific `brew`  version may not be 4.3.7). If you see this message proceed to the __Minoconda Installation__ section.
+2) If `brew` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#miniconda-installation) section.
 
 ```bash
 Homebrew 4.3.7
+```
+
+3) If you see the message below - proceed to step 4:
+
+```bash
+zsh: command not found: brew
 ```
 
 4) Copy and paste the following command into your `terminal` and click `return`:
@@ -70,20 +72,35 @@ Homebrew 4.3.7
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-5) If prompted for your __password__ type your computer login password - the information you type will not appear on the terminal so just finish typing your password and cllck `return`.
+5) When prompted for your __password__ as seen below, type your computer login password 
+__Missing Image Here__
 
-6) After `brew` succesfully installs on your computer you will need to copy and paste the next two commands in succession:
+__Note:__ The information you type will not appear on the terminal, so just finish typing your password and click `return`.
+
+6) Paste into your terminal:
 
 ```bash
 (echo; echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"") >> /Users/$USER/.zprofile
 ```
+
+7) Paste into your terminal:
 ```bash
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-7) `brew` should now be succesfully installed! Validate it again by using the command found in step 1.
+8) Check if `brew` is successfully installed on your computer. Paste:
+
+```bash
+brew -v
+```
+
+9) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#miniconda-installation) section.
+
+```bash
+Homebrew 4.3.7
+```
  
-## Miniconda Installation
+## Miniconda Installation (Mac)
 
 <details>
 <summary> </summary>
@@ -93,98 +110,105 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 </details>
 
 > [!WARNING]  
-> The Miniconda version that you use is very specific for BiG-SCAPE to properly function, follow these instructions _exactly_. Don't use the _M1_ specific Miniconda installation even if your Mac supports that chip.
+> __Follow the file download instructions very carefully! If you don't download the right file, there will be lots of troubleshooting.__
 
 > [!NOTE]
 > Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
 
-1) Start by verifying that conda is not installed on your machine, by pasting into your `terminal`:
+1) Check if conda is already installed on your computer. Paste in your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> :
 
 ```bash
 conda -V
 ```
 
-2) If the `conda` command is not found you will see this message - proceed to step 4:
-
-```bash
-zsh: command not found: conda
-```
-
-3) If the `conda` command is found you will see something along the lines of this message (note that the specific `conda`  version may not be 24.5.0). If `conda` is found then proceed to the __BiG-SCAPE Installation__ section.
+2) If the `conda` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation (Mac)](#big-scape-installation) section.
 
 ```bash
 conda 24.5.0
 ```
 
-4) Start by copying and pasting the below command - this requires __Brew Installation__ (ignore this step if you are using a Windows machine):
+3) If the `conda` is __not__ installed, then you will see the message below - proceed to step 4:
 
 ```bash
-brew install wget
+zsh: command not found: conda
 ```
 
-5) Next copy and paste the command below:
+
+5) Copy and paste the following command into yout `terminal`:
 
 ```bash
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+curl -sL \
+  "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > \
+  "Miniconda3.sh"
 ```
 
-6) After step 5 completes copy and paste the below command:
+6) Paste into your terminal:
 
 ```bash
-bash Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3.sh
 ```
 
-7) The installation of `conda` from here will require some action on your part. At certain points you will need to click `return` to continue, scroll down to finish reading the terms and conditions with your down arrow key, or when prompted to accept an agreement type the word `yes`.
+7) __***Insert screenshots of what to do when you see what__.
 
-8) `conda` should now be succesfully installed! Close your `terminal` window and open a new one before using the command found in step 1 to validate the installation.
+8) Close your `terminal` window and open a __new__ `terminal` window.
 
-## BiG-SCAPE Installation
+9) Check if conda is successfully installed on your computer. Paste in your `terminal`:
 
-> [!NOTE]  
-> These instructions will assume that `bigscape` will run from your Mac's `Desktop` folder, however you can replace the file paths provided with custom paths if you wish in step 2.
+```bash
+conda -V
+```
 
-1) Start by opening a new `terminal` window.
+10) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation (Mac)](#big-scape-installation) section.
 
-2) From this new window copy and paste the below command:
+```bash
+conda 24.5.0
+```
+
+## BiG-SCAPE Installation (Mac)
+
+1) Open a new `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/>  window.
+
+2) Paste into your terminal:
 
 ```bash
 cd Desktop && mkdir bigscape && cd bigscape
 ```
-3) Next copy and paste the below command - this assumes that you completed step 4 of __Miniconda Installation__:
+3) Paste into your terminal:
 
 ```bash
 wget https://github.com/medema-group/BiG-SCAPE/archive/refs/tags/v1.1.5.zip
 ```
-4) Afterwards copy and paste this command:
+4) Paste into your terminal:
 
 ```bash
 unzip v1.1.5
 ```
-5) Next, copy and paste this command:
+5) Paste into your terminal:
 ```bash
 cd BiG-SCAPE-1.1.5
 ```
-6) Afterwards, copy and paste this command - this relies on succesfully completing the __Miniconda Installation__:
+6) Paste into your terminal:
 
 ```bash
 conda env create -f bigscape_dependencies.yml
 ```
 
-7) Next, copy and paste this command you will see a change in your terminal after this completes with a `(bigscape)` popping up:
+7) Finally, copy and paste the command below. You will see a change in your terminal after this completes with a `(bigscape)` in the beginning of your line __Insert Image__:
 
 ```bash
 conda activate bigscape
 ```
-8) You can validate the succesfull installation by running the below command:
+8) Validate the installation by pasting the command below:
 
 ```bash
 python bigscape.py --version
 ```
-9) The final commands to run (to be done in succession) can be copy and pasted from below - these may take a while to complete:
+9) Paste into your terminal:
 
 ```bash
 wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz && gunzip Pfam-A.hmm.gz
 ```
+10) Paste into your terminal:
 ```bash
 hmmpress Pfam-A.hmm
 ```
