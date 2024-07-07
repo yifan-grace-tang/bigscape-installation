@@ -1,32 +1,33 @@
 # BiG-SCAPE Installation Guide
 
-__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
-
-This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
+> [!CAUTION]
+> __Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
-__Before Getting Started...__
-If commands are expected to take a long time to complete they will be indicated with the <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Heures_b%C3%A9n%C3%A9voles.png" height="20" />  icon
+## Before You Get Started
 
-> [!WARNING]
-> Use the copy button feature on GitHub __only__, do not type commands into your terminal window unless instructed to by the protocol.
+Unless otherwise specified, use the copy button feature on GitHub __only__, do not attempt to manually type commands into your terminal. Below is the icon you should look for to copy commands into your clipboard:
 
 ![GitHub Copy Icon](./img/copy-code.png)
-_This is the copy icon in GitHub. Click the icon and the command will be copied onto your clipboard._
 
-> [!WARNING]
-> When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
+If commands are expected to take a long time to complete they will be indicated with this icon ⌛. Ttil his means that either you should wait until a confirmation/continue action or wait until you can type again.
+
+When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
 
 __Mac: Terminal__
+
 When referring to the `terminal` application on your Mac you can open the launchpad and look for this icon:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="100" height="100"/>
 
 __Windows: Command Prompt__
+
 When referring to the `command prompt` application on your Windows computer you can look for this icon:
 
 <img src="https://upload.wikimedia.org/wikipedia/en/e/ef/Command_prompt_icon_%28windows%29.png" width="100" height="100"/>
+
+## Installation Roadmap
 
 For __Mac__ based installation follow these steps (in order):
 
@@ -39,7 +40,7 @@ For __Windows__ based installation follow these steps (in order):
 1) [Miniconda Installation (Windows)](#miniconda-installation)
 2) [BiG-SCAPE Installation (Windows)](#big-scape-installation)
 
-## Brew Installation (Mac)
+## 🍻 Brew Installation (Mac)
 
 <details>
 <summary> </summary>
@@ -100,7 +101,7 @@ brew -v
 Homebrew 4.3.7
 ```
  
-## Miniconda Installation (Mac)
+## 🐍 Miniconda Installation (Mac)
 
 <details>
 <summary> </summary>
