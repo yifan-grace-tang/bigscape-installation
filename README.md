@@ -1,10 +1,15 @@
 # BiG-SCAPE Installation Guide
 
-__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
+__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. This BiG-SCAPE Installation Guide attempts to provide extremely specific step-by-step instructions in order to install all the required dependencies needed to run BiG-SCAPE from your computer. 
+
+Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
 
 > [!WARNING]
 > Use the copy button feature on GitHub __only__, do not type commands into your terminal window unless instructed to by the protocol.
+
+![GitHub Copy Icon](./img/copy-code.png)
+_Look for this icon_
 
 > [!WARNING]
 > When editing text in the terminal window you cannot highlight a particular area and delete with your keyboard, instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
