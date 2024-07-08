@@ -390,9 +390,9 @@ bash Miniconda3-latest-Linux-x86_64.sh
 </p>
 
 
-9) Close your `ubuntu` window and open a __new__ `ubuntu` window.
+8) Close your `ubuntu` window and open a __new__ `ubuntu` window.
 
-10) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
+9) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
 
 ```bash
 conda -V
