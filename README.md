@@ -21,6 +21,11 @@ __For Macbook Air__
 (base) username@your-air ~ % |
 ```
 
+__For a Windows Computer__
+```
+PS C:\Users\username> |
+```
+
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
 
 ## Installation Steps
@@ -29,16 +34,15 @@ Follow the links for your platform __do not use Windows instructions for Mac or 
 
 For __Mac__:
 
-1. [Brew Installation](#-brew-installation-mac)
-2. [Miniconda Installation](#-miniconda-installation-mac)
-3. [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac)
+1. [🍻 Brew Installation](#-brew-installation-mac)
+2. [🐍 Miniconda Installation](#-miniconda-installation-mac)
+3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac)
 
 For __Windows__:
 
-1. [WSL Installation]()
-2. [Brew Installation]()
-3. [Miniconda Installation]()
-4. [BiG-SCAPE Installation]()
+1. [🐧 WSL Installation]()
+2. [🐍 Miniconda Installation]()
+3. [⚙️ BiG-SCAPE Installation]()
 
 # Mac Based Installation
 
@@ -260,5 +264,177 @@ python bigscape.py -h
 <em>You should see this list of commands that you can use on your bigscape query.</em>
 </p>
 
+# Windows Based Installation
 
+Follow these instructions __only__ if you are using a Windows machine. The expectation is that you first do `wsl` installation, then `conda` installation, then `bigscape` installation.
+
+## 🐧 WSL Installation (Windows)
+
+1) Check if `wsl` is already installed on your computer. Look through your applications and see if there is an  `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/> application on your machine.
+
+2) If you see `ubuntu` on your machine proceed to the [Miniconda Installation](#-miniconda-installation-windows) section.
+
+3) If you cannot find the `ubuntu` application proceed to step 4.
+
+4) Find your __Windows PowerShell__ <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="20" height="20" align="center"/> application and _run as administrator_. You will be asked to confirm if you "want to allow this app to make changes to your device" - click yes.
+
+5) ⌛ Paste into your `powershell`:
+
+```bash
+wsl --install
+```
+
+6) Restart your computer for the changes to activate.
+
+7) After your computer restarts, the `ubuntu` application should now be available, open this app:
+
+8) The first time you open this app you will be prompted to create a username and password. _This is in no way tied to your Windows account so choose whatever you would like_. This input will look like below:
+
+> [!WARNING]  
+> Note down the password that you create, it will be used later on
+
+
+__insert image__
+
+9) After you create your username and password you can now close the `ubuntu` app and proceed to [Miniconda Installation](#-miniconda-installation-windows)
+
+## 🐍 Miniconda Installation (Windows)
+
+> [!WARNING]  
+> __Follow the file download instructions very carefully! If you don't download the right file, there will be lots of troubleshooting.__
+
+> [!NOTE]
+> Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
+
+1) Check if conda is already installed on your computer. Paste in your `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/> :
+
+```bash
+conda -V
+```
+
+2) If the `conda` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows) section.
+
+```bash
+conda 24.5.0
+```
+
+3) If the `conda` is __not__ installed, then you will see the message below - proceed to step 4:
+
+```bash
+conda: command not found
+```
+
+4) Navigate to [this link](https://docs.anaconda.com/miniconda/#latest-miniconda-installer-links) and download the installer version as specificied in the images __DO NOT SELECT ANY OTHER INSTALLER__. Click the link under the _Name_ field to begin installation
+
+<p align="center">
+  <img src="./img/correct-miniconda-install.png" height="500">
+</p>
+   
+
+5) Open a new `ubuntu` window and copy-paste the command below. Replace __USERNAME__ with your Windows username:
+
+```bash
+cd ../../mnt/c/Users/USERNAME/Downloads
+```
+
+> [!NOTE]
+> To find your __USERNAME__ you can open the `powershell` <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="20" height="20" align="center"/> application and type the command `$ENV:UserName` and click enter. Copy the value that you see.
+ 
+6) ⌛ Paste into your ubuntu:
+
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+7) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
+
+8) Close your `ubuntu` window and open a __new__ `ubuntu` window.
+
+9) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
+
+```bash
+conda -V
+```
+
+10) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows) section.
+
+```bash
+conda 24.5.0
+```
+
+## ⚙️ BiG-SCAPE Installation (Windows)
+
+1) Open a new `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/>  window.
+
+2) Paste into your ubuntu. Replace __USERNAME__ with your Windows username:
+
+```bash
+cd ../../mnt/c/Users/USERNAME/Documents && mkdir bigscape && cd bigscape
+```
+3) ⌛ Paste into your ubuntu:
+
+```bash
+wget https://github.com/medema-group/BiG-SCAPE/archive/refs/tags/v1.1.5.zip
+```
+
+4) Paste into your ubuntu. You will be prompted for the password you created earlier in [WSL Installation](#-wsl-installation-windows):
+
+```bash
+sudo apt install unzip
+```
+
+5) Paste into your terminal:
+
+```bash
+unzip v1.1.5
+```
+
+6) Paste into your terminal:
+```bash
+cd BiG-SCAPE-1.1.5
+```
+
+7) ⌛ Paste into your terminal:
+
+```bash
+conda env create -f bigscape_dependencies.yml
+```
+
+8) Finally, copy and paste the command below. You will see a change in your terminal after this completes with a `(bigscape)` in the beginning of your line:
+
+```bash
+conda activate bigscape
+```
+
+<p align="center">
+  <img src="./img/bigscape-env-highlight-anno.png" height="500">
+</p>
+
+9) Validate the installation by pasting the command below:
+
+```bash
+python bigscape.py --version
+```
+10) ⌛ Paste into your terminal:
+
+```bash
+wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz && gunzip Pfam-A.hmm.gz
+```
+
+11) ⌛ Paste into your terminal:
+```bash
+hmmpress Pfam-A.hmm
+```
+
+12) You should now be able to run BiG-SCAPE, perform one last verification step and copy-paste the command below to see the options for running `bigscape`. _Make sure that your terminal has the `(bigscape)` in the beginning of your line:
+
+```bash
+python bigscape.py -h
+```
+
+<p align="center">
+  <img src="./img/final-command.png" height=700> 
+  <br>
+<em>You should see this list of commands that you can use on your bigscape query.</em>
+</p>
 
