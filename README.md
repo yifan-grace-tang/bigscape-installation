@@ -41,7 +41,7 @@ Follow these instructions __only__ if you are using a Mac. The expectation is th
 
 ## 🍻 Brew Installation (Mac)
 
-1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> application and paste into your terminal:
+1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> application and paste into your terminal:
 
 ```bash
 brew -v
@@ -105,7 +105,7 @@ Homebrew 4.3.7
 > [!NOTE]
 > Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
 
-1) Check if conda is already installed on your computer. Paste in your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> :
+1) Check if conda is already installed on your computer. Paste in your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> :
 
 ```bash
 conda -V
@@ -184,7 +184,7 @@ conda 24.5.0
 
 ## ⚙️ BiG-SCAPE Installation (Mac)
 
-1) Open a new `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/>  window.
+1) Open a new `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/>  window.
 
 2) Paste into your terminal:
 
