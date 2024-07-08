@@ -20,30 +20,32 @@ username@your-mbp ~ % |
 
 ## Installation Steps
 
+Follow the links for your platform __do not use Windows instructions for Mac or vice-versa__. These steps are _dependent on each other_ so follow them sequentially.
+
 For __Mac__:
 
-1. [Brew Install]()
-2. [Miniconda Install]()
-3. [BiG-SCAPE Install]()
+1. [Brew Installation](#-brew-installation-mac)
+2. [Miniconda Installation](#-miniconda-installation-mac)
+3. [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac)
 
 For __Windows__:
 
-1. [WSL Install]()
-2. [Brew Install]()
-3. [Miniconda Install]()
-4. [BiG-SCAPE Install]()
+1. [WSL Installation]()
+2. [Brew Installation]()
+3. [Miniconda Installation]()
+4. [BiG-SCAPE Installation]()
 
 # Mac Based Installation
 
 ## 🍻 Brew Installation (Mac)
 
-1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> applicaction and paste into your terminal:
+1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20"/> application and paste into your terminal:
 
 ```bash
 brew -v
 ```
 
-2) If `brew` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#miniconda-installation) section.
+2) If `brew` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
 
 ```bash
 Homebrew 4.3.7
@@ -87,7 +89,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew -v
 ```
 
-9) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#miniconda-installation) section.
+9) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
 
 ```bash
 Homebrew 4.3.7
@@ -107,7 +109,7 @@ Homebrew 4.3.7
 conda -V
 ```
 
-2) If the `conda` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation (Mac)](#big-scape-installation) section.
+2) If the `conda` is already installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac) section.
 
 ```bash
 conda 24.5.0
@@ -141,19 +143,27 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 7) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
 
 <p align="center">
-  <img src="./img/conda-64bit-accept-small.png" height="100">
+  <img src="./img/conda-64bit-accept-small.png" height="99">
+  <br>
+  <em>Here type the word 'yes' and click enter </em>
 </p>
 
 <p align="center">
   <img src="./img/conda-tos.png" height="283">
+  <br>
+  <em>When you see the TOS use your down arrow key to get through the text</em>
 </p>
 
 <p align="center">
-  <img src="./img/conda-tos-accept.png" height="500">
+  <img src="./img/conda-tos-accept.png" height="107">
+   <br>
+  <em>After you finish scrolling through the TOS type the word 'yes' to move on</em>
 </p>
 
 <p align="center">
-  <img src="./img/conda-install-accept-small.png" height="500">
+  <img src="./img/conda-install-accept-small.png" height="146">
+   <br>
+  <em>Complete the installation by clicking the 'return' key</em>  
 </p>
 
 8) Close your `terminal` window and open a __new__ `terminal` window.
@@ -164,7 +174,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 conda -V
 ```
 
-10) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation (Mac)](#big-scape-installation) section.
+10) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac) section.
 
 ```bash
 conda 24.5.0
