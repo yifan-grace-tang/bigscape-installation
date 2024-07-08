@@ -21,9 +21,14 @@ __For Macbook Air__
 (base) username@your-air ~ % |
 ```
 
-__For a Windows Computer__
+__For a Windows Computer (Powershell)__
 ```
 PS C:\Users\username> |
+```
+
+__For a Windows Computer (Ubuntu)__
+```
+(base) username@Name:~$ |
 ```
 
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
@@ -290,11 +295,17 @@ wsl --install
 
 8) The first time you open this app you will be prompted to create a username and password. _This is in no way tied to your Windows account so choose whatever you would like_. This input will look like below:
 
+<p align="center">
+  <img src="./img/wsl.png" height=130> 
+  <br>
+  <em>Type username, click enter, type password, click enter, retype password, click enter.</em>
+</p>
+
 > [!WARNING]  
-> Note down the password that you create, it will be used later on
+> Note down the password that you create, it will be used later on.
 
-
-__insert image__
+> [!NOTE]
+> You will not be able to see the password you type, so just type your password and click enter.
 
 9) After you create your username and password you can now close the `ubuntu` app and proceed to [Miniconda Installation](#-miniconda-installation-windows)
 
@@ -327,7 +338,7 @@ conda: command not found
 4) Navigate to [this link](https://docs.anaconda.com/miniconda/#latest-miniconda-installer-links) and download the installer version as specificied in the images __DO NOT SELECT ANY OTHER INSTALLER__. Click the link under the _Name_ field to begin installation
 
 <p align="center">
-  <img src="./img/correct-miniconda-install.png" height="500">
+  <img src="./img/miniconda_wsl_install.png" height="300">
 </p>
    
 
@@ -348,9 +359,40 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 7) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
 
-8) Close your `ubuntu` window and open a __new__ `ubuntu` window.
+<p align="center">
+  <img src="./img/miniconda_windows_license.png" height="99">
+  <br>
+  <em>Here click enter </em>
+</p>
 
-9) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
+<p align="center">
+  <img src="./img/miniconda_windows_lic_scroll.png" height="150">
+  <br>
+  <em>When you see the Terms of Service (TOS) use your down arrow key to get through the text</em>
+</p>
+
+<p align="center">
+  <img src="./img/miniconda_lic_final.png" height="110">
+   <br>
+  <em>After you finish scrolling through the TOS type the word 'yes' to move on</em>
+</p>
+
+<p align="center">
+  <img src="./img/miniconda_install_accept.png" height="183">
+   <br>
+  <em>Confirm the installation by clicking the 'return' key</em>  
+</p>
+
+<p align="center">
+  <img src="./img/conda_windows_accept_final.png" height="85">
+   <br>
+  <em>Finalize the installation by typing 'yes' and clicking enter</em>  
+</p>
+
+
+9) Close your `ubuntu` window and open a __new__ `ubuntu` window.
+
+10) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
 
 ```bash
 conda -V
@@ -407,7 +449,7 @@ conda activate bigscape
 ```
 
 <p align="center">
-  <img src="./img/bigscape-env-highlight-anno.png" height="500">
+  <img src="./img/conda_activate_bigscape_windows.png" height="70">
 </p>
 
 9) Validate the installation by pasting the command below:
@@ -433,7 +475,7 @@ python bigscape.py -h
 ```
 
 <p align="center">
-  <img src="./img/final-command.png" height=700> 
+  <img src="./img/python_bigscape_h_windows.png" height=500> 
   <br>
 <em>You should see this list of commands that you can use on your bigscape query.</em>
 </p>
