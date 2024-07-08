@@ -5,7 +5,7 @@ __Please read through this entire guide before getting started as it will save y
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
-__Discussions__ are the place to go if you encounter any issues with your protocol as clarifications will be provided there for any confusing steps.
+[__Discussions__](https://github.com/yifan-grace-tang/bigscape-installation/discussions) are the place to go if you encounter any issues with your protocol as clarifications will be provided there for any confusing steps.
 
 ## Before You Get Started
 
