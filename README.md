@@ -63,12 +63,12 @@ zsh: command not found: brew
 
 5) When prompted for your __password__ as seen below, type your computer login password.
 
+<p align="center">
+  <img src="./img/brew-sudo-access.png" height="100">
+</p>
+
 > [!NOTE]
 > You will not be able to see the information you type, so just type your password and click return 
-
-<p align="center">
-  <img src="./img/brew-sudo-access.png" height="500">
-</p>
 
 6) Paste into your terminal:
 
@@ -141,7 +141,11 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 7) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
 
 <p align="center">
-  <img src="./img/conda-64bit-accept.png" height="500">
+  <img src="./img/conda-64bit-accept-small.png" height="100">
+</p>
+
+<p align="center">
+  <img src="./img/conda-tos.png" height="283">
 </p>
 
 <p align="center">
@@ -149,7 +153,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 </p>
 
 <p align="center">
-  <img src="./img/conda-install-accept.png" height="500">
+  <img src="./img/conda-install-accept-small.png" height="500">
 </p>
 
 8) Close your `terminal` window and open a __new__ `terminal` window.
