@@ -40,9 +40,9 @@ For __Mac__:
 
 For __Windows__:
 
-1. [🐧 WSL Installation]()
-2. [🐍 Miniconda Installation]()
-3. [⚙️ BiG-SCAPE Installation]()
+1. [🐧 WSL Installation](#-wsl-installation-windows)
+2. [🐍 Miniconda Installation](#-miniconda-installation-windows)
+3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows)
 
 # Mac Based Installation
 
