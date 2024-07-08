@@ -1,6 +1,5 @@
-# BiG-SCAPE Installation Guide
-
-![Big-SCAPE Logo](https://bigscape-corason.secondarymetabolites.org/images/bigscape.png)
+<img src="https://bigscape-corason.secondarymetabolites.org/images/bigscape.png" align="left" width="200px"/>
+<h1> Installation Guide </h1>
 
 __Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
 
