@@ -1,7 +1,8 @@
 # BiG-SCAPE Installation Guide
 
-> [!CAUTION]
-> __Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
+![Big-SCAPE Logo](https://bigscape-corason.secondarymetabolites.org/images/bigscape.png)
+
+__Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
@@ -9,22 +10,29 @@ Even if you have never installed similar softwares on your computer before, you 
 
 - Unless otherwise specified, use the copy button feature on GitHub __only__, do not attempt to manually type commands into your terminal.
 
-- If commands are expected to take a long time to complete they will be indicated with this icon ⌛. This means that either you should wait until a confirmation/continue action or wait until you can type again.
+- If commands are expected to take a long time to complete they will be indicated with this icon ⌛. This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
+
+```
+username@your-mbp ~ % |
+```
 
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
 
 ## Installation Steps
 
-| **Order** |      **Step**     | **Platform** |
-|:---------:|:-----------------:|:------------:|
-|     1     |    Brew Install   |      Mac     |
-|     2     | Miniconda Install |      Mac     |
-|     3     | BiG-SCAPE Install |      Mac     |
-|     1     |    WSL Install    |    Windows   |
-|     2     |    Brew Install   |    Windows   |
-|     3     | Miniconda Install |    Windows   |
-|     4     | BiG-SCAPE Install |    Windows   |
-i hate this
+For __Mac__:
+
+1. [Brew Install]()
+2. [Miniconda Install]()
+3. [BiG-SCAPE Install]()
+
+For __Windows__:
+
+1. [WSL Install]()
+2. [Brew Install]()
+3. [Miniconda Install]()
+4. [BiG-SCAPE Install]()
+
 # Mac Based Installation
 
 ## 🍻 Brew Installation (Mac)
