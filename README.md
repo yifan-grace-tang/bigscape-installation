@@ -256,6 +256,7 @@ python bigscape.py -h
 
 <p align="center">
   <img src="./img/final-command.png" height=500> 
+  <br>
 <em>You should see this list of commands that you can use on your bigscape query if you have successfully installed bigscape.</em>
 </p>
 
