@@ -11,9 +11,13 @@ Even if you have never installed similar softwares on your computer before, you 
 - Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal.
 
 - If commands are expected to take a long time to complete they will be indicated with this icon ⌛. This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
-
+__For Macbook Pro__
 ```
-username@your-mbp ~ % |
+(base) username@your-mbp ~ % |
+```
+__For Macbook Air__
+```
+(base) username@your-air ~ % |
 ```
 
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
