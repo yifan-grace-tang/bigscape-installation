@@ -158,7 +158,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 <p align="center">
   <img src="./img/conda-tos.png" height="283">
   <br>
-  <em>When you see the TOS use your down arrow key to get through the text</em>
+  <em>When you see the Terms of Service (TOS) use your down arrow key to get through the text</em>
 </p>
 
 <p align="center">
