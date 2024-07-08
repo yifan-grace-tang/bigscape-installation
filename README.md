@@ -128,7 +128,7 @@ conda 24.5.0
 zsh: command not found: conda
 ```
 
-4) Navigate to [this link](https://docs.anaconda.com/miniconda/#latest-miniconda-installer-links) and download the installer version as specificied in the images __do not select another installer__. Click the _Name_ field to begin installation
+4) Navigate to [this link](https://docs.anaconda.com/miniconda/#latest-miniconda-installer-links) and download the installer version as specificied in the images __DO NOT SELECT ANY OTHER INSTALLER__. Click the link under the _Name_ field to begin installation
 
 <p align="center">
   <img src="./img/correct-miniconda-install.png" height="500">
