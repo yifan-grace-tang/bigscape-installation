@@ -90,21 +90,16 @@ zsh: command not found: brew
 6) Paste into your terminal:
 
 ```bash
-(echo; echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"") >> /Users/$USER/.zprofile
+echo "export PATH=/usr/local/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
 ```
 
-7) Paste into your terminal:
-```bash
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-8) Check if `brew` is successfully installed on your computer. Paste:
+7) Check if `brew` is successfully installed on your computer. Paste:
 
 ```bash
 brew -v
 ```
 
-9) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
+8) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
 
 ```bash
 Homebrew 4.3.7
