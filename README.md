@@ -7,6 +7,22 @@ Even if you have never installed similar softwares on your computer before, you 
 
 [__Discussions__](https://github.com/yifan-grace-tang/bigscape-installation/discussions) are the place to go if you encounter any issues with your protocol as clarifications will be provided there for any confusing steps.
 
+## Installation Steps
+
+Follow the links for your platform __do not use Windows instructions for Mac or vice-versa__. These steps are _dependent on each other_ so follow them sequentially.
+
+For __Mac__:
+
+1. [🍻 Brew Installation](#-brew-installation-mac)
+2. [🐍 Miniconda Installation](#-miniconda-installation-mac)
+3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac)
+
+For __Windows__:
+
+1. [🐧 WSL Installation](#-wsl-installation-windows)
+2. [🐍 Miniconda Installation](#-miniconda-installation-windows)
+3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows)
+
 ## Before You Get Started
 
 - Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal or powershell.
@@ -35,22 +51,6 @@ __For a Windows Computer (Ubuntu)__
 ```
 
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
-
-## Installation Steps
-
-Follow the links for your platform __do not use Windows instructions for Mac or vice-versa__. These steps are _dependent on each other_ so follow them sequentially.
-
-For __Mac__:
-
-1. [🍻 Brew Installation](#-brew-installation-mac)
-2. [🐍 Miniconda Installation](#-miniconda-installation-mac)
-3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-mac)
-
-For __Windows__:
-
-1. [🐧 WSL Installation](#-wsl-installation-windows)
-2. [🐍 Miniconda Installation](#-miniconda-installation-windows)
-3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows)
 
 # Mac Based Installation
 
