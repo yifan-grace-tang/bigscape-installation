@@ -27,6 +27,8 @@ For __Windows__:
 
 - Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal or powershell.
 
+- When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
+
 - If commands are expected to take a long time to complete they will be indicated with this icon ⌛.
 
 - This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
@@ -50,15 +52,13 @@ __For a Windows Computer (Ubuntu)__
 (base) username@Name:~$ |
 ```
 
-- When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
-
 # Mac Based Installation
 
 Follow these instructions __only__ if you are using a Mac. The expectation is that you first do `brew` installation, then `conda` installation, and finally `bigscape` installation.
 
 ## 🍻 Brew Installation (Mac)
 
-1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> application and paste into your terminal:
+1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> application ``` bash (Finder > Application > Terminal) ``` and paste into your terminal:
 
 ```bash
 brew -v
