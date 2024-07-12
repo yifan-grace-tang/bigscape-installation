@@ -82,6 +82,8 @@ zsh: command not found: brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+between 4 and 5 you have to add press enter
+
 5) When prompted for your __password__ as seen below, type your computer login password.
 
 <p align="center">
