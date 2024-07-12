@@ -9,9 +9,11 @@ Even if you have never installed similar softwares on your computer before, you 
 
 ## Before You Get Started
 
-- Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal.
+- Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal or powershell.
 
-- If commands are expected to take a long time to complete they will be indicated with this icon ⌛. This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
+- If commands are expected to take a long time to complete they will be indicated with this icon ⌛.
+-
+- This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
 
 __For Macbook Pro__
 ```
