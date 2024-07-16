@@ -5,8 +5,6 @@ __Please read through this entire guide before getting started as it will save y
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
 
-[__Discussions__](https://github.com/yifan-grace-tang/bigscape-installation/discussions) are the place to go if you encounter any issues with your protocol as clarifications will be provided there for any confusing steps.
-
 ## Installation Steps
 
 Follow the links for your platform __do not use Windows instructions for Mac or vice-versa__. These steps are _dependent on each other_ so follow them sequentially.
@@ -23,15 +21,25 @@ For __Windows__:
 2. [🐍 Miniconda Installation](#-miniconda-installation-windows)
 3. [⚙️ BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows)
 
-## Before You Get Started
+## Terminal, Powershell, and Ubuntu
+
+For __Mac__ based installation instructions you will exclusively be using the `terminal` application to interact with your computer.
+
+For __Windows__ based installation instructions you will be using both `PowerShell` and `ubuntu` at any given step.
+
+| <!-- -->    |  <!-- -->   |
+|---	|---	|
+| To open the `terminal` - click the Launchpad icon in the Dock, type `terminal` in the search field, then click `terminal`.	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" height="100"> 	|
+| To open the `PowerShell` - open the Start menu, type `Windows PowerShell`, select `Windows PowerShell`, then select __Run as Administrator__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" height="100"> 	|
+| To open the `ubuntu` application -  open the Start menu, type `ubuntu`, select `ubuntu`, then select __Open__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" height="100"> 	|
+
+## "How To Use" This Guide
 
 - Unless otherwise specified, use the copy button feature on GitHub __ONLY__, do not attempt to manually type commands into your terminal or powershell.
 
 - When editing text in the terminal window you __cannot highlight__ a particular area __and delete__ with your keyboard. Instead to delete a portion of your command you must use your left arrow and navigate to the portion you want to edit
 
-- If commands are expected to take a long time to complete they will be indicated with this icon ⌛.
-
-- This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
+- If commands are expected to take a long time to complete they will be indicated with this icon ⌛. This means that either you should wait until a confirmation/continue action or wait until you can type again. You should see something like this when you are able to type again:
 
 __For Macbook Pro__
 ```
