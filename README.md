@@ -29,9 +29,9 @@ For __Windows__ based installation instructions you will be using both `PowerShe
 
 | <!-- -->    |  <!-- -->   |
 |---	|---	|
-| To open the `terminal` - click the Launchpad icon in the Dock, type `terminal` in the search field, then click `terminal`.	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" height="100"> 	|
-| To open the `PowerShell` - open the Start menu, type `Windows PowerShell`, select `Windows PowerShell`, then select __Run as Administrator__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" height="100"> 	|
-| To open the `ubuntu` application -  open the Start menu, type `ubuntu`, select `ubuntu`, then select __Open__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" height="100"> 	|
+| To open the `terminal` - click the Launchpad icon in the Dock, type `terminal` in the search field, then click `terminal`.	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" height="100" width="100"> 	|
+| To open the `PowerShell` - open the Start menu, type `Windows PowerShell`, select `Windows PowerShell`, then select __Run as Administrator__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" height="100" width="100"> 	|
+| To open the `ubuntu` application -  open the Start menu, type `ubuntu`, select `ubuntu`, then select __Open__. 	| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" height="100" width="100"> 	|
 
 ## "How To Use" This Guide
 
