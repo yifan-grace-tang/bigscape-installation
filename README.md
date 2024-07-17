@@ -66,6 +66,10 @@ Follow these instructions __only__ if you are using a Mac. The expectation is th
 
 ## 🍻 Brew Installation (Mac)
 
+<p align="center">
+  <img src="./img/brew-installation.gif" width="700"/> 
+</p>
+
 1) Check if `brew` is already installed on your computer. Open your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> application ``` (Finder > Application > Terminal) ``` and paste into your terminal:
 
 ```bash
