@@ -132,7 +132,7 @@ Homebrew 4.3.7
 > Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
 
 <p align="center">
-  <img src="./img/output_3.gif" width="700"/>
+  <img src="./img/output3.gif" width="700"/>
   <br>
   <em>Accidentally clicked the wrong installer in demo, but downloaded the correct one. Use the one referenced in the guide.</em>
 </p>
