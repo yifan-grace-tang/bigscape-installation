@@ -131,6 +131,12 @@ Homebrew 4.3.7
 > [!NOTE]
 > Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
 
+<p align="center">
+  <img src="./img/output_3.gif" width="700"/>
+  <br>
+  <em>Accidentally clicked the wrong installer in demo, but downloaded the correct one. Use the one referenced in the guide.</em>
+</p>
+
 1) Check if conda is already installed on your computer. Paste in your `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/> :
 
 ```bash
