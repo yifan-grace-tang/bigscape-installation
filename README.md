@@ -308,7 +308,7 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 5) ⌛ Paste into your `powershell`:
 
 ```bash
-wsl --install
+wsl --install Ubuntu --web-download
 ```
 
 6) Restart your computer for the changes to activate.
