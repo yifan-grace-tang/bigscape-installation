@@ -210,6 +210,10 @@ conda 24.5.0
 
 ## ⚙️ BiG-SCAPE Installation (Mac)
 
+<p align="center">
+  <img src="./img/bigscape-installation.gif" width="700"/> 
+</p>
+
 1) Open a new `terminal` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Terminalicon2.png/240px-Terminalicon2.png" width="20" height="20" align="center"/>  window.
 
 2) Paste into your terminal:
