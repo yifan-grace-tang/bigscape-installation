@@ -311,25 +311,15 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 wsl --install Ubuntu --web-download
 ```
 
-6) Restart your computer for the changes to activate.
+6) When you see the below message __restart your computer__ and log back in to your account:
+
+```
+Enter new UNIX username: _
+```
 
 7) After your computer restarts, the `ubuntu` application should now be available, open this app:
 
-8) The first time you open this app you will be prompted to create a username and password. _This is in no way tied to your Windows account so choose whatever you would like_. This input will look like below:
-
-<p align="center">
-  <img src="./img/wsl.png" height=130> 
-  <br>
-  <em>Type username, click enter, type password, click enter, retype password, click enter.</em>
-</p>
-
-> [!WARNING]  
-> Note down the password that you create, it will be used later on.
-
-> [!NOTE]
-> You will not be able to see the password you type, so just type your password and click enter.
-
-9) After you create your username and password you can now close the `ubuntu` app and proceed to [Miniconda Installation](#-miniconda-installation-windows)
+8) You can now close the `ubuntu` app and proceed to [Miniconda Installation](#-miniconda-installation-windows)
 
 ## 🐍 Miniconda Installation (Windows)
 
@@ -362,24 +352,26 @@ conda: command not found
 <p align="center">
   <img src="./img/miniconda_wsl_install.png" height="300">
 </p>
-   
 
-5) Open a new `ubuntu` window and copy-paste the command below. Replace __USERNAME__ with your Windows username:
+5) Copy-paste the command below:
 
 ```bash
-cd ../../mnt/c/Users/USERNAME/Downloads
+WINDOWS_USER=$(/mnt/c/Windows/System32/cmd.exe /c 'echo %USERNAME%' | sed -e 's/\r//g')
 ```
 
-> [!NOTE]
-> To find your __USERNAME__ you can open the `powershell` <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="20" height="20" align="center"/> application and type the command `$ENV:UserName` and click enter. Copy the value that you see.
- 
-6) ⌛ Paste into your ubuntu:
+6) Open a new `ubuntu` window and copy-paste the command below. Replace __USERNAME__ with your Windows username:
+
+```bash
+cd ../../mnt/c/Users/$WINDOWS_USER/Downloads
+```
+
+7) ⌛ Paste into your ubuntu:
 
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-7) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
+8) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
 
 <p align="center">
   <img src="./img/miniconda_windows_license.png" height="99">
@@ -412,15 +404,15 @@ bash Miniconda3-latest-Linux-x86_64.sh
 </p>
 
 
-8) Close your `ubuntu` window and open a __new__ `ubuntu` window.
+9) Close your `ubuntu` window and open a __new__ `ubuntu` window.
 
-9) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
+10) Check if conda is successfully installed on your computer. Paste in your `ubuntu`:
 
 ```bash
 conda -V
 ```
 
-10) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows) section.
+11) If the `conda` is sucessfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [BiG-SCAPE Installation](#%EF%B8%8F-big-scape-installation-windows) section.
 
 ```bash
 conda 24.5.0
