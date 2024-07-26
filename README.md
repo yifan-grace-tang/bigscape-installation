@@ -297,6 +297,10 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 
 ## 🐧 WSL Installation (Windows)
 
+<p align="center">
+  <img src="./img/wsl-install-win-vid.gif" width="700"/> 
+</p>
+
 1) Check if `wsl` is already installed on your computer by looking through your applications and see if there is an  `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/> application on your machine.
 
 2) If you see `ubuntu` on your machine proceed to the [Miniconda Installation](#-miniconda-installation-windows) section.
