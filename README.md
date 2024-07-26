@@ -317,7 +317,7 @@ wsl --install Ubuntu --web-download
 Enter new UNIX username: _
 ```
 
-7) After your computer restarts, the `ubuntu` application should now be available, open this app:
+7) After your computer restarts, the `ubuntu` application should now be available, open the application to verify a successful install.
 
 8) You can now close the `ubuntu` app and proceed to [Miniconda Installation](#-miniconda-installation-windows)
 
