@@ -310,7 +310,7 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 4) Find your __Windows PowerShell__ <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="20" height="20" align="center"/> application and _run as administrator_. You will be asked to confirm if you "want to allow this app to make changes to your device" - click yes.
 
 <p align="center">
-  <img src="./img/run-ps-as-admin.png" height="100">
+  <img src="./img/run-ps-as-admin.png" height="200">
 </p>
 
 6) ⌛ Paste into your `powershell`:
@@ -365,13 +365,13 @@ conda: command not found
   <img src="./img/miniconda_wsl_install.png" height="300">
 </p>
 
-5) Copy-paste the command below:
+5) Open a new `ubuntu` window and copy-paste the command below:
 
 ```bash
 WINDOWS_USER=$(/mnt/c/Windows/System32/cmd.exe /c 'echo %USERNAME%' | sed -e 's/\r//g')
 ```
 
-6) Open a new `ubuntu` window and copy-paste the command below. Replace __USERNAME__ with your Windows username:
+6) Copy-paste the command below:
 
 ```bash
 cd ../../mnt/c/Users/$WINDOWS_USER/Downloads
@@ -383,7 +383,7 @@ cd ../../mnt/c/Users/$WINDOWS_USER/Downloads
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-8) You will now be prompted for a series of agreements that you must accept from your terminal. These are included below:
+8) You will now be prompted for a series of agreements that you must accept from your `ubuntu`. These are included below:
 
 <p align="center">
   <img src="./img/miniconda_windows_license.png" height="99">
@@ -432,12 +432,16 @@ conda 24.5.0
 
 ## ⚙️ BiG-SCAPE Installation (Windows)
 
-1) Open a new `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/>  window.
-
-2) Paste into your ubuntu. Replace __USERNAME__ with your Windows username:
+1) Open a new `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/>  and copy-paste the command below:
 
 ```bash
-cd ../../mnt/c/Users/USERNAME/Documents && mkdir bigscape && cd bigscape
+WINDOWS_USER=$(/mnt/c/Windows/System32/cmd.exe /c 'echo %USERNAME%' | sed -e 's/\r//g')
+```
+
+2) Copy-paste the below command:
+
+```bash
+cd ../../mnt/c/Users/$WINDOWS_USER/Documents && mkdir bigscape && cd bigscape
 ```
 3) ⌛ Paste into your ubuntu:
 
@@ -445,13 +449,13 @@ cd ../../mnt/c/Users/USERNAME/Documents && mkdir bigscape && cd bigscape
 wget https://github.com/medema-group/BiG-SCAPE/archive/refs/tags/v1.1.5.zip
 ```
 
-4) Paste into your ubuntu. You will be prompted for the password you created earlier in [WSL Installation](#-wsl-installation-windows):
+4) Copy-paste into your `ubuntu`:
 
 ```bash
 sudo apt install unzip
 ```
 
-5) Paste into your terminal:
+5) Paste the below command:
 
 ```bash
 unzip v1.1.5
