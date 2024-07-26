@@ -432,6 +432,10 @@ conda 24.5.0
 
 ## ⚙️ BiG-SCAPE Installation (Windows)
 
+<p align="center">
+  <img src="./img/bigscape-vid-windows.gif" width="700"/> 
+</p>
+
 1) Open a new `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/>  and copy-paste the command below:
 
 ```bash
