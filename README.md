@@ -309,7 +309,11 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 
 4) Find your __Windows PowerShell__ <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" width="20" height="20" align="center"/> application and _run as administrator_. You will be asked to confirm if you "want to allow this app to make changes to your device" - click yes.
 
-5) ⌛ Paste into your `powershell`:
+<p align="center">
+  <img src="./img/run-ps-as-admin.png" height="100">
+</p>
+
+6) ⌛ Paste into your `powershell`:
 
 ```bash
 wsl --install Ubuntu --web-download
@@ -332,6 +336,10 @@ Enter new UNIX username: _
 
 > [!NOTE]
 > Miniconda is also refered to as `conda` and those terms will be used interchangibly in this installation guide.
+
+<p align="center">
+  <img src="./img/miniconda-vid-windows.gif" width="700"/> 
+</p>
 
 1) Check if conda is already installed on your computer. Paste in your `ubuntu` <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/UbuntuCoF.svg/1024px-UbuntuCoF.svg.png" width="20" height="20" align="center"/> :
 
