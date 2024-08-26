@@ -203,6 +203,12 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 </p>
 
 <p align="center">
+  <img src="./img/mac_lic_agreement_enter.png" height="99">
+  <br>
+  <em>Click `enter` to bring up the Terms of Service </em>
+</p>
+
+<p align="center">
   <img src="./img/conda-tos.png" height="283">
   <br>
   <em>⌛⌛⌛ When you see the Terms of Service (TOS) use your down arrow key to get through the text</em>
@@ -217,7 +223,13 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 <p align="center">
   <img src="./img/conda-install-accept-small.png" height="146">
    <br>
-  <em>⌛ Complete the installation by clicking the 'return' key</em>  
+  <em>⌛ Continue the installation by clicking the 'return' key</em>  
+</p>
+
+<p align="center">
+  <img src="./img/mac_conda_init_yes.png" height="150">
+  <br>
+  <em>Type `yes` to finish the installation </em>
 </p>
 
 8) Close your `terminal` window and open a __new__ `terminal` window.
