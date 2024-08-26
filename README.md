@@ -227,7 +227,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 </p>
 
 <p align="center">
-  <img src="./img/mac_conda_init_yes.png" height="150">
+  <img src="./img/mac_conda_init_yes2.png" height="150">
   <br>
   <em>Type `yes` to finish the installation </em>
 </p>
