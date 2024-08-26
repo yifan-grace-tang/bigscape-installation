@@ -108,16 +108,22 @@ between 4 and 5 you have to add press enter
 6) Paste into your terminal:
 
 ```bash
-echo "export PATH=/usr/local/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
+ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bigscape/.zprofile
 ```
 
-7) Check if `brew` is successfully installed on your computer. Paste:
+7) Paste into your terminal:
+
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+8) Check if `brew` is successfully installed on your computer. Paste:
 
 ```bash
 brew -v
 ```
 
-8) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
+9) If `brew` is successfully installed, you will see a message similar to the one below (versions can differ). Proceed to the [Miniconda Installation](#-miniconda-installation-mac) section.
 
 ```bash
 Homebrew 4.3.7
