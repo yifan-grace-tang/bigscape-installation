@@ -119,7 +119,7 @@ between 4 and 5 you have to add press enter
 </p>
 
 ```bash
- (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bigscape/.zprofile
+ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$USERNAME/.zprofile
 ```
 
 8) Paste into your terminal:
