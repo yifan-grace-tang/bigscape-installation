@@ -105,7 +105,7 @@ between 4 and 5 you have to add press enter
 > [!NOTE]
 > You will not be able to see the information you type, so just type your password and click return 
 
-6) Paste into your terminal:
+6) Paste into your terminal - replace `bigscape` with your username - the command is explicitly printed by the brew installation during the mention of __next steps__:
 
 ```bash
  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/bigscape/.zprofile
