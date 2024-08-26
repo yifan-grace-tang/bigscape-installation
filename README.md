@@ -336,7 +336,7 @@ Follow these instructions __only__ if you are using a Windows machine. The expec
 6) ⌛ Paste into your `powershell`:
 
 ```bash
-wsl --install Ubuntu --web-download
+wsl --install --distribution Ubuntu --web-download
 ```
 
 6) When you see the below message __restart your computer__ and log back in to your account:
