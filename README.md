@@ -105,7 +105,7 @@ between 4 and 5 you have to add press enter
 > [!NOTE]
 > You will not be able to see the information you type, so just type your password and click return 
 
-6) The installation will ask you to click `return` to continue:
+6) ⌛ The installation will ask you to click `return` to continue:
 
 <p align="center">
   <img src="./img/brew_mac_return_or_enter.png" height="60">
@@ -202,7 +202,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 <p align="center">
   <img src="./img/conda-tos.png" height="283">
   <br>
-  <em>When you see the Terms of Service (TOS) use your down arrow key to get through the text</em>
+  <em>⌛⌛⌛ When you see the Terms of Service (TOS) use your down arrow key to get through the text</em>
 </p>
 
 <p align="center">
@@ -214,7 +214,7 @@ bash Miniconda3-latest-MacOSX-x86_64.sh
 <p align="center">
   <img src="./img/conda-install-accept-small.png" height="146">
    <br>
-  <em>Complete the installation by clicking the 'return' key</em>  
+  <em>⌛ Complete the installation by clicking the 'return' key</em>  
 </p>
 
 8) Close your `terminal` window and open a __new__ `terminal` window.
