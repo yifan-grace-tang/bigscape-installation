@@ -1,6 +1,9 @@
 <img src="https://bigscape-corason.secondarymetabolites.org/images/bigscape.png" align="left" width="200px"/>
 <h1> Installation Guide </h1>
 
+>[!IMPORTANT]
+> The installation instructions provided here are __explicitly__ for `bigscape` version 1.1.5 and provides _no guarantee_ of support for other versions.
+
 __Please read through this entire guide before getting started as it will save you a lot of time troubleshooting errors later on__. 
 
 Even if you have never installed similar softwares on your computer before, you should be able to install BiG-SCAPE _as long as you read this guide thoroughly_.
